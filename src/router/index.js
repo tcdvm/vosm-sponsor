@@ -28,7 +28,8 @@ export default new Router({
 // function.
 const options = {
   key: 'pk_live_rNrIXxEyBd9tpTLxTw0P4iiA',
-  image: 'https://tchen.webfactional.com/sponsor/static/img/VOSlogo-small.png',
+  // key: 'pk_test_loAPqOiMFuxDx3my2xE3b40D',
+  image: 'https://vosmeeting.com/sponsor/static/img/VOSlogo-small.png',
   locale: 'auto',
   currency: 'PHP',
   billingAddress: false,

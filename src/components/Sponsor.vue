@@ -70,7 +70,8 @@ export default {
         token: (token) => {
           console.log('token ->', token)
           console.log('this.sponsoramt ->', this.sponsoramt)
-          axios.post(`https://tchen.webfactional.com/vosm_payment/charge`, {
+          // axios.post(`https://vosmeeting.com/vosm_payment_test/charge`, {
+          axios.post(`https://vosmeeting.com/vosm_payment/charge`, {
             stripeToken: token.id,
             amount: this.sponsoramt * 100,
             email: token.email
